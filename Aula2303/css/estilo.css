@@ -1,0 +1,76 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+body {
+    margin: 0px;
+}
+
+#title {
+    background-color: #2283c9;
+    padding: 20px;
+}
+
+#title h1 {
+    margin: 0px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+}
+
+#courses {
+    padding: 0px;
+    text-align: center;
+}
+
+#courses article {
+    margin-top: 25px;
+}
+
+#courses article h2 {
+    font-size: 20px;
+    color: #686868;
+}
+
+.buttom {
+    background-color: #127d00;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+#courses article img {
+    height: 200px;
+    width: 100%;
+}
+
+@media (min-width: 600px) {
+    
+    #title{
+        padding: 40px;
+    }
+
+    #title h1 {
+        font-size: 22px;
+    }
+
+    #courses article {
+        float: left;
+        width: calc(50% - 20px);
+    }
+
+    #courses article:nth-child(even){
+        margin-left: 20px;
+    }
+
+    #courses article img {
+        width: 70%;
+    }
+    
+}
+
